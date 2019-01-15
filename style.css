@@ -339,24 +339,6 @@ margin:0;
 display:inline-block
 }
 
-/*
-画像の比率を保ったまま拡大縮小
-
-width: XXpx;
-height : auto;
-
-width: auto;
-height: XXpx;
-
-2018/04/03 うくん
-*/
-
-/*
-「cssグリッド」で調べてみよう
-
-2018/04/03 うくん
-*/
-
 .animals{
   margin:0;
   display:grid;
@@ -367,7 +349,6 @@ height: XXpx;
   background:linear-gradient(#0000ff,#ff00ff);
 }
 .cat{
-/* 二つ指定されてる */
 /*background:linear-gradient(#ffff99,#ff9900);*/
 text-align:center;
 margin:0 auto　;
@@ -466,7 +447,7 @@ margin:0 ;
 #container{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 55px ;
+  grid-gap: 60px ;
 
   padding: 0.5em 1em;
   margin: 5em 0;
@@ -491,9 +472,6 @@ margin:0 ;
 }
 #container::before { left: 450px;}
 #container::after { right: 500px;}
-/* 1fでウィンドウの幅に自動的に合わせてくれる
-　　例：grid-template-columns: repeat(3, 1fr);
-　　 */
 /*--------------------contact----------------*/
 form {
     /* フォームをページの中央に置く */
