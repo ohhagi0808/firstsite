@@ -447,7 +447,7 @@ margin:0 ;
 #container{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 60px ;
+  grid-gap: 65px ;
 
   padding: 0.5em 1em;
   margin: 5em 0;
